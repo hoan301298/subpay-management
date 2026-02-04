@@ -5,3 +5,7 @@ app = FastAPI(title="SubPay Management")
 @app.get("/")
 def root():
     return {"message": "SubPay API running"}
+
+@app.get("/status")
+def status():
+    return {"status": "OK"}
