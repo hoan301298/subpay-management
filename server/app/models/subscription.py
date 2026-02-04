@@ -11,7 +11,6 @@ from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 from app.database import Base
 from app.models.const.plan_type import PlanType
-import enum
 
 class SubscriptionPlan(Base):
     __tablename__ = "subscription_plans"
