@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Database
+*.sqlite3
+*.db
+*.log
+
+# Pytest cache
+.pytest_cache/
+
+# Migrations (optional, if you want to track separately)
+alembic/versions/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Stripe secrets backup files
+*.key
+*.pem
